@@ -20,8 +20,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#ifndef __SDL_Game_SpriteSheet__Vector2D__
-#define __SDL_Game_SpriteSheet__Vector2D__
+#ifndef __SDL__Vector2D__
+#define __SDL__Vector2D__
 
 #include <math.h>
 class Vector2D
@@ -55,4 +55,4 @@ private:
     float m_x;
     float m_y;
 };
-#endif /* defined(__SDL_Game_SpriteSheet__Vector2D__) */
+#endif /* defined(__SDL__Vector2D__) */

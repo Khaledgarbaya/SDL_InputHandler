@@ -20,8 +20,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#ifndef __SDL_Game_SpriteSheet__InputHandler__
-#define __SDL_Game_SpriteSheet__InputHandler__
+#ifndef __SDL__InputHandler__
+#define __SDL__InputHandler__
 #include "Vector2D.h"
 #include <stdio.h>
 #include <vector>
@@ -56,4 +56,4 @@ private:
     Uint8* m_keystates;
 };
 
-#endif /* defined(__SDL_Game_SpriteSheet__InputHandler__) */
+#endif /* defined(__SDL__InputHandler__) */

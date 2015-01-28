@@ -43,7 +43,7 @@ void InputHandler::update()
     {
         switch (event.type) {
             case SDL_QUIT:
-                //Quit the game
+                //TODO Cleanup
                 break;
             case SDL_MOUSEMOTION:
                 onMouseMove(event);
